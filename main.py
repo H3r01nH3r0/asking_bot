@@ -4,9 +4,9 @@ import keyboards as nav
 from time import sleep
 
 db = Database('database.db')
-bot = Bot(token="1900305542:AAHjQjTgBu8LvoNb69FpxOdnnXFKWIuNKTA", parse_mode=types.ParseMode.HTML)
+bot = Bot(token="", parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
-admin_id = 5047191962
+admin_id = 0
 owners_filter = filters.IDFilter(user_id=str(admin_id))
 
 def get_answers(question_id):
